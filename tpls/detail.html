@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >  
+
+    <link href="../frameworks/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/lightgallery.min.css" />
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <script src="../js/lightgallery.min.js"></script>
+    <title>动态详情</title>
+
+    </head>
+    <body>
+
+        <div class="container-fluid wrapper">
+
+            <div class="box">
+                <div class="row ptb10">
+                    <div class="col-xs-12">
+                        <div class="media">
+                            <a class="media-left media-middle" href="#">
+                                <img  src="../images/face.png"  alt="用户头像" class="face">
+                            </a>
+                            <div class="media-body">
+                                <p class="mes-name mt1">我是叶良辰</p>
+                                <p class="mes-time fgray">三分钟前</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mes-body pb10">
+                            <p>网易能不能成为bat后的第四级尚不可知，但是纵观其这几年做的产品，我觉得是符合发展趋势的，网易云音乐、网易考拉、网易严选、网易公开课等我觉得做的都不错，虽然有些现在规模不大，没有对行业形成大的影响力，但是在每一个细分市场的用户认知度是比较高的，主打精品，这也是符合消费趋势的，看好网易。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mes-img" id="lightgallery">
+                    <div class="col-xs-4 plr5" data-src="../images/m_img1.png" >
+                        <span class="img" style="background-image:url(../images/m_img1.png)"></span>
+                    </div>
+                    <div class="col-xs-4 plr5" data-src="../images/m_img2.png">
+                        <span class="img" style="background-image:url(../images/m_img2.png)"></span>
+                    </div>
+                    <div class="col-xs-4 plr5" data-src="../images/m_img3.png">
+                        <span class="img" style="background-image:url(../images/m_img3.png)"></span>
+                    </div>
+                    <div class="col-xs-4 plr5" data-src="../images/m_img4.png">
+                        <span class="img" style="background-image:url(../images/m_img4.png)"></span>
+                    </div>
+                    <div class="col-xs-4 plr5" data-src="../images/m_img5.png">
+                        <span class="img" style="background-image:url(../images/m_img5.png)"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 mes-address pb10">
+                        <img src="../images/form.png"  alt="" />
+                        <span>四川工程圈</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box row ptb12">
+                <div class="col-xs-12">
+                    <div class="zan-total pb10">
+                        14人点赞了
+                    </div>
+                    <div class="zan-detail">
+                        <div class="zanl">
+                            <img src="../images/face.png"  alt="" class="face" />
+                            <img src="../images/face.png"  alt="" class="face" />
+                            <img src="../images/face.png"  alt="" class="face" />
+                            <img src="../images/face.png"  alt="" class="face" />
+                            <img src="../images/face.png"  alt="" class="face" />
+                            
+                        </div>
+                        <div class="zanr">
+                            <img src="../images/more_comments.png"  alt="" class="face" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box cmt">
+                <div class="row">
+                    <div class="col-xs-12 cmt-title ptb10">
+                        精彩评论
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 ">
+                        <div class="cmt-body">
+                            <div class="media">
+                                <a class="media-left" href="#">
+                                    <img  src="../images/face.png"  alt="用户头像" class="face">
+                                </a>
+                                <div class="media-body">
+                                    <p class="mes-name">木</p>
+                                    <p class="mes-time">15分钟前</p>
+                                    <div class="cmt-detail">
+                                        B可以取掉，直接ATM，不管做什么，细节态度很重要
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="media-left" href="#">
+                                    <img  src="../images/face.png"  alt="用户头像" class="face">
+                                </a>
+                                <div class="media-body">
+                                    <p class="mes-name">刘乐</p>
+                                    <p class="mes-time">5分钟前</p>
+                                    <div class="cmt-detail">
+                                        回复<span>木</span>:说的很好...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <a href="" class="btn-upload">下载工程汇，查看更多精彩评论</a>
+                </div>
+            </div>
+            
+        </div>
+    <script>
+        lightGallery(document.getElementById('lightgallery'),{
+            'loop' : false,
+            'hideControlOnEnd' : false,
+            'enableTouch' : true,
+            'enableDrag' : true,
+            'swipeThreshold' : 100,
+            'closable' : true
+        });
+    </script>
+
+    </body>
+</html>
