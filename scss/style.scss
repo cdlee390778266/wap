@@ -177,6 +177,24 @@ a{
     width:100%;
 }
 
+.mt60{
+    margin-top: 60px;
+}
+
+.mt70{
+    margin-top: 65px;
+}
+
+p{
+    text-align: justify;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.pt7{
+    padding-top: 7px;
+}
+
 /******   详情页   ******/
 .wrapper{
     .box{
@@ -530,18 +548,10 @@ a{
     }
 }
 
-// @media only screen and (-webkit-min-device-pixel-ratio: 2){
-//     .cmt-title:before {
-//         -webkit-transform: scaleY(.5);
-//         transform: scaleY(.5); 
-//     }
-// }
-
-// @media only screen and (-webkit-min-device-pixel-ratio: 1.5){
-//     .cmt-title:before {
-//         -webkit-transform: scaleY(.6666);
-//         transform: scaleY(.6666);
-//         -webkit-transform-origin: 0 0;
-//         transform-origin: 0 0;
-//     }
-// }
+.fixed{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+    width:100%;
+}
